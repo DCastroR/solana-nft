@@ -43,27 +43,4 @@ Deploy Candy Machine:
 Bash
 
 npm run deploy
-Mint NFTs:
 
-Bash
-
-npm run mint
-Project Structure
-solana-nft/
-├── assets/             # NFT assets (images, metadata)
-│   ├── 0.json
-│   ├── 1.json
-│   └── ...
-├── programs/           # Solana programs
-│   └── candy-machine/
-│       ├── Cargo.toml
-│       └── ...
-├── app/                # User interface
-│   ├── index.html
-│   └── ...
-├── scripts/            # Helper scripts
-│   ├── generate-metadata.js
-│   ├── deploy.js
-│   └── mint.js
-└── README.md
-Contributing
